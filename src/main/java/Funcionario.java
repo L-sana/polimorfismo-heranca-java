@@ -5,6 +5,10 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public double calculaImposto(){
+        return this.getSalario() * 0.00;
+    }
+
     public Double getSalario() {
         return salario;
     }

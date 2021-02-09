@@ -18,21 +18,21 @@ public class Main {
 
             switch (opcao){
                 case 1:
-                    Gerente gerente = new Gerente(3000.00);
+                    Funcionario gerente = new Gerente(3000.00);
                     salarioLiquido = (gerente.getSalario() - gerente.calculaImposto());
                     System.out.println("--------------------------------------");
                     System.out.printf("Salario Bruto: %.2f\nImposto descontado: %.2f\nSalario Liquido: %.2f\n",gerente.getSalario(), gerente.calculaImposto(), salarioLiquido);
                     System.out.println("--------------------------------------");
                     break;
                 case 2:
-                    Supervisor supervisor = new Supervisor(2000.00);
+                    Funcionario supervisor = new Supervisor(2000.00);
                     salarioLiquido = (supervisor.getSalario() - supervisor.calculaImposto());
                     System.out.println("--------------------------------------");
                     System.out.printf("Salario Bruto: %.2f\nImposto descontado: %.2f\nSalario Liquido: %.2f\n",supervisor.getSalario(), supervisor.calculaImposto(), salarioLiquido);
                     System.out.println("--------------------------------------");
                     break;
                 case 3:
-                    Atendente atendente = new Atendente(1000.00);
+                    Funcionario atendente = new Atendente(1000.00);
                     salarioLiquido = (atendente.getSalario() - atendente.calculaImposto());
                     System.out.println("--------------------------------------");
                     System.out.printf("Salario Bruto: %.2f\nImposto descontado: %.2f\nSalario Liquido: %.2f\n",atendente.getSalario(), atendente.calculaImposto(), salarioLiquido);
