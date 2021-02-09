@@ -1,0 +1,10 @@
+Supervisor.java
+ Supervisor
+Atendente.java
+ Atendente
+Funcionario.java
+ Funcionario
+Gerente.java
+ Gerente
+Main.java
+ Main
